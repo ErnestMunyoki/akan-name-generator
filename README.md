@@ -14,14 +14,10 @@ Phone Number: 0701123456
 🚀 Setup Instructions
 To run this web app, follow these steps:
 
-Clone the repository (if applicable):
+Open the index.html file in your browser.
+Simply double-click the file, and the application will launch in your default web browser.
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/akan-name-generator.git
-cd akan-name-generator
-Open the index.html file in your browser. Simply double-click the file, and the application should launch in your browser.
+There is no need for any installation or additional setup.
 
 ✅ BDD (Behavior-Driven Development)
 Testing is currently manual for this project. Users interact with the web app, and the expected result is the generation of an Akan name based on their input.
@@ -39,3 +35,4 @@ Phone Number: 0701123456
 📄 License
 This project is licensed under the MIT License.
 © 2025 Ernest Munyoki. All rights reserved.
+
