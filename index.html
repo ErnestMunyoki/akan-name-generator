@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <h1>The Akan Name Generator</h1>
+    <p>This application calculates the day of the week a person was born.</p>
+    <p>The user is required to enter their birthdate and specific gender then press the submit button</p>
+    <p>It then assigns them an Akan name based on their gender.</p>
+    <p>Akan names are originlly from the Ghanaian culture.</p>
+    
+    <br>
+
+        <div >
+    <form id="fom"> 
+        <div>   
+            <label for="birthdate" class="birthdate"> <Strong>Birthdate: </Strong> </label>
+            <input type="date" id="birthdate" required>
+         </div>
+         
+         <br>
+
+        <div>
+        <label for="Gender" class="gender"><strong>Gender:</strong></label>
+        <select id="gender" required>
+            <option value="">--Select Gender--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        </div>
+
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3 id="result" class ="result"></h3>
+
+    <script src="src/script.js"></script>
+</body>
+</html>

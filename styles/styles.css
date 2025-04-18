@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: blue;
+}
+.birthdate{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+button{
+    background-color: green; 
+    margin-top: 0px;
+    padding: 0px;
+    width: 90px;
+    border-radius: 3px;
+    border: 2px solid;
+    cursor: pointer;
+}
+button:after {
+    background-color: red;
+}
+p{
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+    font-size: larger;
+    font-weight: bolder;
+}
+body{
+    background-color: lightblue;
+    padding: 2rem;
+    text-align: center;
+}
+.gender{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+form{
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    max-width: 350px;
+    margin: 2px auto;
+}
